@@ -1,0 +1,44 @@
+body {
+  /* background: url(https://assets.pons.com/assets/images/logo/logo-123x38.svg); */
+  background-color: rgb(3, 175, 48);
+}
+
+body,
+html {
+  font-size: 1.2 rem;
+}
+.logo {
+  margin-top: 50%;
+  text-align: center;
+}
+
+.slogan {
+  font-family: Helvetica, Arial, sans-serif;
+
+  color: aliceblue;
+  font-size: 25px;
+  margin-top: 30px;
+  font-weight: normal;
+  text-align: center;
+}
+.subslogan {
+  font-family: Helvetica, Arial, sans-serif;
+
+  color: aliceblue;
+  font-size: 17px;
+  margin-top: 5px;
+  line-height: 1.46em;
+  text-align: center;
+}
+
+.text-line {
+  background-color: transparent;
+  color: #eeeeee;
+  outline: none;
+  outline-style: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid #eeeeee 1px;
+  padding: 3px 10px;
+}

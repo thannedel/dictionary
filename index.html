@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dictionary</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
-    <div>
+    <div class="searchbar">
       <input
         id="message"
-        onfocus="this.value=''"
-        class="msger-input"
+        class="text-line"
         type="text"
         placeholder="Enter your message..."
       />
@@ -20,8 +21,19 @@
         class="msger-send-btn"
         onclick="search()"
       >
-        Send post
+        search
       </button>
+    </div>
+    <div class="logo">
+      <img
+        src="https://assets.pons.com/assets/images/logo/logo-123x38.svg"
+        alt=""
+        width="240 px"
+      />
+    </div>
+    <div class="text-center">
+      <p class="slogan">PONS Online-Wörterbuch</p>
+      <p class="subslogan">Einfach nachschlagen und richtig übersetzen</p>
     </div>
     <div id="output"></div>
     <script src="dict.js"></script>
