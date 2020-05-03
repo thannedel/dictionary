@@ -1,9 +1,7 @@
 let word;
 function search() {
   word = document.getElementById('message').value;
-
   console.log(word);
-
   fetchData();
 }
 
