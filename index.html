@@ -6,7 +6,24 @@
     <title>Dictionary</title>
   </head>
   <body>
-    <div id="check_data"></div>
+    <div>
+      <input
+        id="message"
+        onfocus="this.value=''"
+        class="msger-input"
+        type="text"
+        placeholder="Enter your message..."
+      />
+      <button
+        id="postButton"
+        type="submit"
+        class="msger-send-btn"
+        onclick="search()"
+      >
+        Send post
+      </button>
+    </div>
+    <div id="output"></div>
     <script src="dict.js"></script>
   </body>
 </html>
