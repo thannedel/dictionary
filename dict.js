@@ -18,6 +18,7 @@ async function fetchData() {
   const data = await res.json();
   words = data;
   console.log('Logged Output: fetchData -> words', words);
+
   displayWords();
 }
 

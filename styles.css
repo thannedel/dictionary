@@ -1,15 +1,17 @@
-body {
-  /* background: url(https://assets.pons.com/assets/images/logo/logo-123x38.svg); */
+header {
   background-color: rgb(3, 175, 48);
-}
 
+  height: 10vh;
+}
 body,
 html {
   font-size: 1.2 rem;
+  margin: 0px;
+  background-color: rgb(3, 175, 48);
 }
 .logo {
-  margin-top: 50%;
   text-align: center;
+  margin-top: 20vh;
 }
 
 .slogan {
